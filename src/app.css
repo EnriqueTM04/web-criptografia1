@@ -129,11 +129,6 @@ section h2 {
     letter-spacing: .05em;
     text-shadow: 0 2px 12px #0088ff13;
 }
-@keyframes slideIn {
-    0% {opacity:0; transform:translateY(70px);}
-    90%{opacity:1;}
-    100%{opacity:1; transform:none;}
-}
 .info {
     display: flex;
     flex-wrap: wrap;
@@ -165,7 +160,7 @@ section h2 {
     padding: 1.2rem;
     flex: 1 1 230px;
     min-width: 230px;
-    min-height: 270px;
+    min-height: 330px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,10 +192,6 @@ section h2 {
 }
 .card .img-cripto {
     width: 50%;
-    border-radius: 14px;
-    margin-bottom: .75rem;
-    box-shadow: 0 2px 18px #1e88e522;
-    height: 190px;
 }
 .card:hover img, .card:hover video {
     filter: brightness(1.13) saturate(1.15);
